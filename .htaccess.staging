@@ -10,6 +10,6 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 
-SetEnv WP_ENV "production"
+SetEnv WP_ENV "staging"
 
  AddType x-httpd-php53 .php
