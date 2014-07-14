@@ -11,3 +11,5 @@ RewriteRule . /hush/index.php [L]
 </IfModule>
 
 # END WordPress
+
+ AddType x-httpd-php54 .php
