@@ -1,0 +1,21 @@
+{
+  "name": "windmill-theme",
+  "title": "Windmill",
+  "description": "A lighweight theme developed to quickly set up everything the developer needs. Performance is second to none.",
+  "url": "http://www.blowmedia.co.uk/",
+  "author": "Blowmedia",
+  "version": "0.0.1",
+  "devDependencies": {
+    "node-sass": "~0.8.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-sass": "~0.7.1",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-autoprefixer": "~0.6.5",
+    "grunt-contrib-jshint": "~0.8.0",
+    "matchdep": "~0.3.0",
+    "grunt-dev-update": "~0.4.5",
+    "jshint-junit-reporter": "0.0.6"
+  }
+}
