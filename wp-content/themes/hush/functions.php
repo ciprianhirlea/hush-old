@@ -157,7 +157,7 @@ switch(WP_ENV){
 
     case 'production':
     case 'staging':
-        add_action( 'wp_enqueue_scripts', 'production_enqueue_assets');
+        add_action( 'wp_enqueue_scripts', 'development_enqueue_assets');
         break;
 
     default:
