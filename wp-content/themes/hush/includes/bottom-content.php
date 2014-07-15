@@ -94,8 +94,6 @@
 			<div class="featured-testimonial-text">
 
 				<div class="cycle-slideshow" 
-    data-cycle-fx="scrollHorz" 
-    data-cycle-timeout="2000"
     data-cycle-slides="> div"
     >
 
