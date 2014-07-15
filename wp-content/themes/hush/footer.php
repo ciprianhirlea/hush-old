@@ -52,7 +52,7 @@
   <?php endwhile; else : endif; ?>
 
 <script>
-  $('.testimonialBox').cycle({ 
+  $('.testimonial-box').cycle({ 
     fx:     'fade', 
     speed:   800, 
     pause: 10, 
