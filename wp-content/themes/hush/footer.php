@@ -51,6 +51,19 @@
 
   <?php endwhile; else : endif; ?>
 
+<script>
+  $('.testimonialBox').cycle({ 
+    fx:     'fade', 
+    speed:   800, 
+    pause: 10, 
+    next:   '#next3', 
+    timeout: 8000,
+    slideResize: 0,
+    containerResize: 0
+})
+
+  </script>
+
 		<!-- analytics -->
 		<script>
 			var _gaq=[['_setAccount','UA-XXXXXXXX-XX'],['_trackPageview']];
