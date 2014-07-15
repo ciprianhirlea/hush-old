@@ -424,6 +424,7 @@ strong {
 
 #side-content {
 	padding-left: 20px;
+	margin-bottom: 20px;
 
 	span {
 		color: $pink;
@@ -539,7 +540,8 @@ strong {
 }
 
 .twitter-content {
-	width: 285px;
+	width: 80%;
+	max-width: 100%;
 	display: inline-block;
 	padding-left: 40px;
 	color: #555555;
@@ -1212,3 +1214,22 @@ strong {
 }
 
 /* end */
+
+@media (max-width: 600px) {
+	
+	#bottom-buttons {
+		width: 94%;
+	}
+
+	.price-list-left {
+		width: 100%;
+	}
+
+	table {
+		width: 100%;
+	}
+
+	.contact {
+		padding-top: 0px;
+	}
+}
