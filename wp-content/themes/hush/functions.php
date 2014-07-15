@@ -59,7 +59,7 @@ function development_enqueue_assets(){
     wp_register_script('foundation', get_template_directory_uri() . '/js/plugins/foundation.js', 'jquery');
     wp_enqueue_script('foundation'); // Enqueue it!
 
-    wp_register_script('cycle', get_template_directory_uri() . '/js/plugins/cycle.js', 'jquery');
+    wp_register_script('cycle', get_template_directory_uri() . '/js/cycle.js', 'jquery');
     wp_enqueue_script('cycle'); // Enqueue it!
 
 
