@@ -219,7 +219,7 @@ function arphabet_widgets_init() {
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
 
-//Custom post type team//
+//Custom post type featured testimonials//
 add_action( 'init', 'create_featured_testimonial_type' );
 function create_featured_testimonial_type() {
     register_post_type( 'featured_testimonial',
@@ -227,6 +227,24 @@ function create_featured_testimonial_type() {
             'labels' => array(
                 'name' => __( 'featured testimonial' ),
                 'singular_name' => __( 'featured testimonial' )
+            ),
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'post'),
+        'supports' => array( 'title', 'editor', 'thumbnail' ),
+        'taxonomies' => array('category', 'post_tag') // this is IMPORTANT
+        )
+    );
+}
+
+//Custom post type featured testimonials//
+add_action( 'init', 'create_testimonials_type' );
+function create_testimonials_type() {
+    register_post_type( 'testimonials',
+        array(
+            'labels' => array(
+                'name' => __( 'testimonials' ),
+                'singular_name' => __( 'testimonial' )
             ),
         'public' => true,
         'has_archive' => true,
