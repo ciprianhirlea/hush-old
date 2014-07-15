@@ -85,6 +85,18 @@
 
 <!-- testimonial section -->
 
+<script>
+$('.featured-testimonial-text').cycle({ 
+    fx:     'fade', 
+    speed:   800, 
+    pause: 10, 
+    next:   '#next3', 
+	timeout: 8000,
+	slideResize: 0,
+	containerResize: 0
+})
+</script>
+
 
 <div id="featured-testimonial-background">
 
@@ -92,18 +104,20 @@
 
 		<div class="large-12 small-12 no-padding">
 
-			<?php 
+			<div class="featured-testimonial-text">
+
+				<?php 
              					$loop = new WP_Query( array('post_type' => array('featured_testimonial')) ); ?>
 					<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-			<div class="featured-testimonial-text">
 				
 				<div class="cycle-slideshow">
 				<?php the_content() ?>
 				</div>
+
+				<?php endwhile; ?>
 					
 			</div>
 
-			<?php endwhile; ?>
 		</div>
 
 	</div>
