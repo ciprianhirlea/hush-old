@@ -5,9 +5,9 @@
 
 <div class="row">
 
-	<div id="bottom-buttons" >
+	<div class="large-4 small-12 columns no-padding dermal">
 
-		<div class="large-4 small-12 columns no-padding dermal">
+		<div id="bottom-buttons" >
 
 		<a href="#">
 
