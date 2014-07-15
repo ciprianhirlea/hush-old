@@ -72,6 +72,8 @@
 
 					<?php endwhile ?>
 
+					<?php site_pagination(); ?>
+
 				</div>
 
 			</div>
