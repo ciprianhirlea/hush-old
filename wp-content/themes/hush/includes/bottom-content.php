@@ -92,7 +92,7 @@
 		<div class="large-12 small-12 no-padding">
 
 			<div class="featured-testimonial-text">
-
+				<span>
 				<?php 
              					$loop = new WP_Query( array('post_type' => array('featured_testimonial')) ); ?>
 					<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
@@ -100,7 +100,7 @@
 				<div class="cycle-slideshow">
 				<?php the_content() ?>
 				</div>
-
+			 </span>
 				<?php endwhile; ?>
 					
 			</div>
