@@ -266,12 +266,11 @@ strong {
 /* three buttons across the page */
 
 #bottom-buttons {
-	width: 30.9%;
 	max-width: 100%;
 	padding-bottom: 40px;
 
 	&.dermal, &.wrinkle {
-		margin-right: 40px;
+		padding-right: 40px;
 	}
 
 	&.cosmeceuticals {
