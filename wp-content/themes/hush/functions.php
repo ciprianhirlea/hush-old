@@ -221,7 +221,7 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 //Custom post type team//
 add_action( 'init', 'create_featured_testimonial_type' );
-function create_team_type() {
+function create_featured_testimonial_type() {
     register_post_type( 'featured_testimonial',
         array(
             'labels' => array(
