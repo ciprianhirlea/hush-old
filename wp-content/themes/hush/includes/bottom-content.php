@@ -85,19 +85,6 @@
 
 <!-- testimonial section -->
 
-<script>
-$('.featured-testimonial-text').cycle({ 
-    fx:     'fade', 
-    speed:   800, 
-    pause: 10, 
-    next:   '#next3', 
-	timeout: 8000,
-	slideResize: 0,
-	containerResize: 0
-})
-</script>
-
-
 <div id="featured-testimonial-background">
 
 	<div class="row">
