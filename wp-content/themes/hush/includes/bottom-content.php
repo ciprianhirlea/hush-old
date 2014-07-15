@@ -95,7 +95,7 @@
              					$loop = new WP_Query( array('post_type' => array('featured_testimonial')) ); ?>
 					<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 				
-			<div class="featured-testimonial-text bxslider">
+			<div class="featured-testimonial-text">
 				<?php the_content() ?>
 			</div>
 
