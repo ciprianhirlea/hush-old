@@ -41,9 +41,17 @@ while ( have_posts() ) : the_post(); ?>
 
 			<div class="large-4 small-12 columns no-padding">
 				
-				<div id="side-content-blog">
+				<div id="side-content" class="contact">
 
-					
+					<?php while (have_posts()) : the_post(); ?>
+
+						<span>T.</span><?php the_field('telephone') ?>
+						<br><br>
+						<span>E.</span><a href="<?php the_field('email')?>"><?php the_field('email') ?></a>
+						<br><br>
+						<div class="twitter"></div><div class="facebook"></div>
+
+					<?php endwhile ?>
 
 				</div>
 
