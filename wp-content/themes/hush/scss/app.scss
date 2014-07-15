@@ -854,7 +854,7 @@ nav {
 .pagination li a:hover,
 .pagination li.active a,
 .pagination li.disabled {
-    background-color: #000000;
+    background-color: $pink;
     border-radius: 3px;
     cursor: pointer;
     padding: 12px;
@@ -863,8 +863,8 @@ nav {
 
 .pagination li a:hover,
 .pagination li.active a {
-    background-color: #97745B;
-    color: #FFFFFF;
+    background-color: #8EC642;
+    color: #FFFFFF !important;
 }
 
 .pagination {
