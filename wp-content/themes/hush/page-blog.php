@@ -46,8 +46,7 @@
 								
 								<div class="entry-user">
 									Posted by: <?php echo the_author_meta('nickname', get_the_author_meta( 'ID' ) ); ?>&nbsp;&nbsp;/&nbsp;&nbsp;
-                                            						Category: <?php the_category(' / '); ?> &nbsp;&nbsp;/&nbsp;&nbsp;
-                                          						<?php comments_number() ?>
+                                            						Category: <?php the_category(' / '); ?> &nbsp;&nbsp;
                                           					</div>
 							</div>
 
