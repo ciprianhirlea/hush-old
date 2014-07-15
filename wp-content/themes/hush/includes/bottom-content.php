@@ -92,10 +92,14 @@
 
 		<div class="large-12 small-12 no-padding">
 			<div class="featured-testimonial-text">
+				<?php 
+             					$loop = new WP_Query( array('post_type' => array('featured_testimonial')) ); ?>
+					<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 				<div class="cycle-slideshow"   data-cycle-slides="> div">
-				<div>"Whether it be my Botox, lip filler or the occasional face peel I am extremely thrilled with the results every time and trust Beverley 100%. She is a perfectionist and its shows through in her treatments."</div>
-				<div>opdkf;dgkdp</div>
+				<div><?php the_content() ?></div>
+				
 				</div>
+					<?php endwhile; ?>
 			</div>
 		</div>
 
