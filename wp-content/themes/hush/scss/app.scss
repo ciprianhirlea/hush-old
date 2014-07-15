@@ -836,7 +836,7 @@ nav {
 .pagination li a:hover,
 .pagination li.active a,
 .pagination li.disabled {
-    color: #ffffff;
+    color: #ffffff !important;
     text-decoration:none;
 }
 
