@@ -24,7 +24,6 @@ $('#slider').nivoSlider({
     afterLoad: function(){}         // Triggers when slider has loaded
 });
 
-
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 60) {
        $('.sticky-header').addClass('fixed');
@@ -104,7 +103,13 @@ $(document).ready(function(){
 });
 
 
-$('.bxslider').bxSlider({
-  mode: 'fade',
-});
+$('.featured-testimonial-text').cycle({ 
+    fx:     'fade', 
+    speed:   800, 
+    pause: 10, 
+    next:   '#next3', 
+    timeout: 8000,
+    slideResize: 0,
+    containerResize: 0
+})
 
