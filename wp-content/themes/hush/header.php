@@ -30,13 +30,13 @@
 			<div id="header-Bg">
 				<div class="row">
 
-					<div class="large-2 columns no-padding">
+					<div class="large-2 small-2 columns no-padding">
 						<a href="<?php bloginfo('url')?>">
 							<img class="logo" src="<?php bloginfo('template_directory')?>/img/logo.jpg" />
 						</a>
 					</div>
 
-					<div class="large-8 columns no-padding">
+					<div class="large-10 small-10 columns no-padding">
 						<div id="header-contact-details">
 							<div class="phone-number">07968 498 223</div> <div class="email-address"><a href="mailto:info@hushaesthetics.com">info@hushaesthetics.com</a></div>
 
