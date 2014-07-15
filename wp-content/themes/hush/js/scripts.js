@@ -103,13 +103,7 @@ $(document).ready(function(){
 });
 
 
-$('.featured-testimonial-text').cycle({ 
-    fx:     'fade', 
-    speed:   800, 
-    pause: 10, 
-    next:   '#next3', 
-    timeout: 8000,
-    slideResize: 0,
-    containerResize: 0
-})
+$('.bxslider').bxSlider({
+  mode: 'fade',
+});
 
