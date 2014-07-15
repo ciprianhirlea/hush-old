@@ -52,7 +52,7 @@
   <?php endwhile; else : endif; ?>
 
 <script>
-  $('.featured-testimonial-text').cycle({ 
+  $('.text-slider').cycle({ 
     fx:     'fade', 
     speed:   800, 
     pause: 10, 
