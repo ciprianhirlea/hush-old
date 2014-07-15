@@ -859,6 +859,10 @@ nav {
     cursor: pointer;
     padding: 12px;
     padding: 0.75rem;
+
+    li {
+    	list-style: none;
+    }
 }
 
 .pagination li a:hover,
