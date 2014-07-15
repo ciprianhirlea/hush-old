@@ -26,7 +26,9 @@ $args = array( 'post_type' => 'testimonials', 'posts_per_page' => 5, 'paged' => 
 $wp_query = new WP_Query($args);
 while ( have_posts() ) : the_post(); ?>
 
-						<div class='quotations'>"</div><?php the_content() ?><div class='quotations'>"</div>
+						<div class='quotations'>"</div>
+						<div class="testimonial-text"><?php the_content() ?></div>
+						<div class='quotations'>"</div>
 
 						
 						<hr/>
