@@ -90,22 +90,18 @@
 
 	<div class="row">
 
+		<div class="cycle-slideshow" data-cycle-slides="> div">
+
 		<div class="large-12 small-12 no-padding">
 			<div class="featured-testimonial-text">
 
 				<?php $loop = new WP_Query( array('post_type' => array('featured_testimonial',),) ); ?>
 				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
-
-				<div class="cycle-slideshow" data-cycle-slides="> div">
-
 				<div><?php the_content() ?></div>
 
-				</div>
-
 				<?php endwhile; ?>
-				
-				
+			</div>
 				</div>
 		</div>
 
