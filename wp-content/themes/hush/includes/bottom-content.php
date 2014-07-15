@@ -94,14 +94,15 @@
 
 			
 			<div class="featured-testimonial-text">
-
+				<div class='featured-testimonial'>
 				<?php $loop = new WP_Query( array('post_type' => array('featured_testimonial',),) ); ?>
 				<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-				<div class='featured-testimonial'>
+				
 				<?php the_content() ?>
-				</div>
 
 				<?php endwhile; ?>
+
+				</div>
 			
 			</div>
 		</div>
