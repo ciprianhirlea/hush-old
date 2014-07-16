@@ -1,7 +1,15 @@
 <?php get_header(); ?>
 	
 
-	
+<?php if (is_page('treatments/dermal-fillers/')) { ?>
+
+<?php } elseif (is_page('treatments/wrinkle-relaxing-injections/')) { ?>
+
+<?php } elseif (is_page('treatments/cosmeceuticals/')) { ?>
+
+<?php } else { ?>
+
+
 
 <div class="row">
 
@@ -82,6 +90,8 @@
 	</div>
 
 </div>
+
+<?php } ?>
 
 <!-- testimonial section -->
 
