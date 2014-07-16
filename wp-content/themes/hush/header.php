@@ -101,6 +101,12 @@
 						<br><br>
 						<div class="twitter"></div><div class="facebook"></div>
 					</div>
+
+					<div class="large-9 columns noPadding showNav">
+
+						<?php  wp_nav_menu(array('mobile-menu' => 'Menu 1', 'container_class' => 'mobile-menu', 'items_wrap' => '<ul id="mobile-menu">%3$s</ul>')) ?>
+
+					</div>
 				
 
 			</div>
