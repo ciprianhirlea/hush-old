@@ -305,8 +305,18 @@ nav {
 	margin: 0 40px 0 0;
 	display: block;
 	float: left;
-	width: 100%;
+	width: 27%;
 	height: 280px;
+
+	.product-image {
+		display: inline-block;
+		*display: inline;
+	}
+
+	.product-description {
+		display: inline-block;
+		*display: inline;
+	}
 }
 
 /* end */

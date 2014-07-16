@@ -61,8 +61,8 @@
 					
 
 				<div class="cosmeceuticals-carousel">
-					<img src="<?php the_sub_field('cosmeceuticals_image') ?>" >
-					<?php the_sub_field('cosmeceuticals_slider_text') ?>
+					<div class="product-image"><img src="<?php the_sub_field('cosmeceuticals_image') ?>" ></div>
+					<div class="product-description"><?php the_sub_field('cosmeceuticals_slider_text') ?></div>
 					
 				   </div>
 
