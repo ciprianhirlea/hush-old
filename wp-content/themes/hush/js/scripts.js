@@ -53,6 +53,22 @@ $(document).ready(function() {
         }                   
     });
 
+  // Using custom configuration
+    $('#cosmo').carouFredSel({
+        items               : 1,
+        direction           : "right",
+        auto : false,
+        prev : "#prev",
+        next : "#next",
+        scroll : {
+            items           : 2,
+            duration    : 1000,
+            imeoutDuration : 2000,                   
+            pauseOnHover    : true
+        }                   
+    });
+
+
     if ($(window).width() < 600) {
 
            // Using custom configuration
