@@ -47,20 +47,17 @@
 
 			<div class="large-12 small-12 columns no-padding">
 
-				<div class="gallery-title">
-					Before and after gallery
-				</div>
-
 			<div class="carousel_wrapper">
 
 				<div id="carousel">
-				<?php if(get_field('before_and_after')): ?>
-				<?php while(has_sub_field('before_and_after')): ?>
-					<?php $image = wp_get_attachment_image_src(get_sub_field('before_and_after_image'), 'full'); ?>
-					<?php $thumb = wp_get_attachment_image_src(get_sub_field('before_and_after_image'), 'large'); ?>
+				<?php if(get_field('cosmeceuticals_slider')): ?>
+				<?php while(has_sub_field('cosmeceuticals_slider')): ?>
+					
 
 				<div class="before-after-carousel">
-					<a href="<?php echo $image[0]; ?>" class="fancybox" rel="fancybox"><img class="beforeAfterimg" src="<?php echo $thumb[0]; ?>" /></a>
+
+					<?php the_field('cosmeceuticals_slider_text') ?>
+					
 				   </div>
 
 				<?php endwhile; ?>
