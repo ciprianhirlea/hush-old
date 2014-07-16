@@ -19,7 +19,7 @@
 
 		<div class="row">
 
-			<div class="large-6 small-6 no-padding columns">
+			<div class="large-6 small-6 columns">
 				
 				<div id="cosmeceuticals-left">
 
@@ -31,7 +31,7 @@
 
 			</div>
 
-			<div class="large-6 small-6 no-padding columns">
+			<div class="large-6 small-6 columns">
 
 				<div id="cosmeceuticals-right">
 
