@@ -50,13 +50,19 @@
 			<div class="carousel_wrapper">
 
 				<div id="carousel">
-				<?php if(get_field('cosmeceuticals_slider')): ?>
-				<?php while(has_sub_field('cosmeceuticals_slider')): ?>
+				<?php
+ 
+						// check if the repeater field has rows of data
+						if( have_rows('cosmeceuticals slider') ):
+					 
+					 	// loop through the rows of data
+					    	while ( have_rows('cosmeceuticals slider') ) : the_row();
+						?>
 					
 
 				<div class="before-after-carousel">
-hjhhjj
-					<?php the_field('cosmeceuticals_slider_text') ?>
+hjhhjj					<img src="<?php the_sub_field('cosmeceuticals image') ?>" >
+					<?php the_sub_field('cosmeceuticals_slider_text') ?>
 					
 				   </div>
 
