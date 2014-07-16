@@ -60,6 +60,7 @@ $(document).ready(function() {
         auto : false,
         prev : "#prev",
         next : "#next",
+        responsive: true,
         scroll : {
             items           : 1,
             duration    : 1000,
