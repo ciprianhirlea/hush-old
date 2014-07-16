@@ -19,19 +19,19 @@
 
 		<div class="row">
 
-			<div class="large-12 small-12 columns no-padding">
+			<div class="large-6 small-6 no-padding columns">
 				
 				<div id="cosmeceuticals-left">
 
 					<?php while (have_posts()) : the_post(); ?>
 
-						<?php the_content() ?>
-
-						
-
-					
+						<?php the_content() ?>	
 
 				</div>
+
+			</div>
+
+			<div class="large-6 small-6 no-padding columns">
 
 				<div id="cosmeceuticals-right">
 
