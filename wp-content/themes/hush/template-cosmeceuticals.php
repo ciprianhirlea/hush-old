@@ -47,7 +47,7 @@
 
 			<div class="large-12 small-12 columns no-padding">
 
-			<div class="carousel_wrapper">
+			<div class="carousel_wrapper_cosmeceuticals">
 
 				<div id="carousel">
 				<?php
