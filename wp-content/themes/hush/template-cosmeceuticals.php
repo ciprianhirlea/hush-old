@@ -53,15 +53,15 @@
 				<?php
  
 						// check if the repeater field has rows of data
-						if( have_rows('cosmeceuticals slider') ):
+						if( have_rows('cosmeceuticals_slider') ):
 					 
 					 	// loop through the rows of data
-					    	while ( have_rows('cosmeceuticals slider') ) : the_row();
+					    	while ( have_rows('cosmeceuticals_slider') ) : the_row();
 						?>
 					
 
 				<div class="before-after-carousel">
-hjhhjj					<img src="<?php the_sub_field('cosmeceuticals image') ?>" >
+hjhhjj					<img src="<?php the_sub_field('cosmeceuticals_image') ?>" >
 					<?php the_sub_field('cosmeceuticals_slider_text') ?>
 					
 				   </div>
