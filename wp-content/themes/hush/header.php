@@ -86,7 +86,15 @@
 
 			<!-- mobile header -->
 
+		<div class="mobile-header">
 
+			<div class="large-2 small-2 columns no-padding">
+				<a href="<?php bloginfo('url')?>">
+					<img class="logo" src="<?php bloginfo('template_directory')?>/img/logo.jpg" />
+				</a>
+			</div>
+
+		</div>
 
 			<!-- end of mobile header -->
 

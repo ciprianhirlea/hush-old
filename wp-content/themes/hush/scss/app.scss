@@ -172,6 +172,10 @@ strong {
 	z-index: 999999;
 }
 
+.mobile-header {
+	display: none;
+}
+
 /* menu */
 
 nav {
@@ -1365,5 +1369,9 @@ nav {
 
 	.desktop-header {
 		display: none;
+	}
+
+	.mobile-header {
+		display: block;
 	}
 }
