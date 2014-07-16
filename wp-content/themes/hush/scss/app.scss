@@ -1426,4 +1426,14 @@ nav {
 			}
 	}
 
+	  .mobileButt {
+		background: url(img/mobileButt.jpg) no-repeat;
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		margin:  0 auto;
+		vertical-align: top;
+		*display: inline;
+    	}
+
 }

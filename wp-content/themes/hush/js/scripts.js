@@ -119,3 +119,10 @@ $(document).ready(function(){
   
 });
 
+    $(document).ready(function() {
+   $('.mobile-menu-button').click(function() {
+       $('.showNav').slideToggle('slow');
+   });
+       
+});
+
