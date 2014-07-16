@@ -31,9 +31,7 @@
 
 					
 
-				</div>
-
-				<div id="cosmeceuticals-right">
+				</div><div id="cosmeceuticals-right">
 
 					
 
