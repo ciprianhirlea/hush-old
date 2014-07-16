@@ -16,7 +16,7 @@
 				<div class="bottom-buttons-link-bg">
 
 					<div class="pink-text-treatment-buttons">
-						Blog
+						Read ourBlog
 					</div>
 
 					<div class="treatment-grey-text">
@@ -123,7 +123,7 @@
 				<div class="bottom-buttons-link-bg">
 
 					<div class="pink-text-treatment-buttons">
-						Blog
+						Read ourBlog
 					</div>
 
 					<div class="treatment-grey-text">
@@ -231,7 +231,7 @@
 				<div class="bottom-buttons-link-bg">
 
 					<div class="pink-text-treatment-buttons">
-						Blog
+						Read ourBlog
 					</div>
 
 					<div class="treatment-grey-text">
