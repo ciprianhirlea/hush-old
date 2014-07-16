@@ -50,7 +50,7 @@
 
 			<div class="carousel_wrapper_cosmeceuticals">
 
-				<div id="carousel cosmo">
+				<div id="cosmo">
 				<?php
  
 						// check if the repeater field has rows of data
