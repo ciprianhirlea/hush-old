@@ -89,11 +89,11 @@
 		<div class="mobile-header">
 			<div id="header-Bg">
 
-				<div class="large-2 small-2 columns no-padding">
+				
 					<a href="<?php bloginfo('url')?>">
 						<img class="logo" src="<?php bloginfo('template_directory')?>/img/logo.jpg" />
 					</a>
-				</div>
+				
 
 			</div>
 
