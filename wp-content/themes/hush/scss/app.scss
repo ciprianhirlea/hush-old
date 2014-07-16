@@ -311,10 +311,12 @@ nav {
 	.product-image {
 		padding-right: 135px;
 		display: inline-block;
+		vertical-align: top;
 		*display: inline;
 	}
 
 	.product-description {
+		width: 48%;
 		display: inline-block;
 		*display: inline;
 	}
