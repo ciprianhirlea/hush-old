@@ -19,13 +19,25 @@
 
 		<div class="row">
 
-			<div class="large-8 small-12 columns no-padding">
+			<div class="large-12 small-12 columns no-padding">
 				
-				<div id="treatment-content">
+				<div id="cosmeceuticals-left">
 
 					<?php while (have_posts()) : the_post(); ?>
 
 						<?php the_content() ?>
+
+						
+
+					
+
+				</div>
+
+				<div id="cosmeceuticals-right">
+
+					
+
+						<?php the_field('right_col') ?>
 
 						
 
@@ -35,40 +47,7 @@
 
 			</div>
 
-			<div class="large-4 small-12 columns no-padding">
-				
-				<div id="side-content">
-
-					
-
-						<?php
- 
-						// check if the repeater field has rows of data
-						if( have_rows('faq_dropdowns') ):
-					 
-					 	// loop through the rows of data
-					    	while ( have_rows('faq_dropdowns') ) : the_row();
-						?>
-          						<div class="faqcontent">
-            	 					<div class="show_hide"><div class="faq-question"><?php the_sub_field('faq_title');?></div>
-
-	                 					<div class="arrow-up"><img src="<?php bloginfo('template_url'); ?>/img/minus.jpg" alt="" /></div>
-	    						<div class="arrow-down"><img src="<?php bloginfo('template_url'); ?>/img/plus.jpg" alt="" /></div>
-	                 
-               					</div>
-                 					</div>
-					              <div class="slidingDiv">
-					              <p><?php the_sub_field('faq_content');?></p>
-					              </div>
-
-					          <?php endwhile ?>
-					      <?php endif ?>
-               
-           					
-
-				</div>
-
-			</div>
+			
 
 		</div>
 
