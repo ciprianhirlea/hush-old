@@ -283,6 +283,14 @@ nav {
 #cosmeceuticals-left, #cosmeceuticals-right {
 	display: inline-block;
 	*display: inline;
+
+	#cosmeceuticals-left {
+		padding-left: 0px;
+	}
+
+	#cosmeceuticals-right {
+		padding-right: 0px;
+	}
 }
 
 /* end */
