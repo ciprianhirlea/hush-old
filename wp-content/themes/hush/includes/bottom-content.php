@@ -16,7 +16,7 @@
 				<div class="bottom-buttons-link-bg">
 
 					<div class="pink-text-treatment-buttons">
-						Read ourBlog
+						Read our Blog
 					</div>
 
 					<div class="treatment-grey-text">
@@ -114,7 +114,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
 
-		<a href="<?php bloginfo('url')?>/treatments/blog/">
+		<a href="<?php bloginfo('url')?>/blog/">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -123,7 +123,7 @@
 				<div class="bottom-buttons-link-bg">
 
 					<div class="pink-text-treatment-buttons">
-						Read ourBlog
+						Read our Blog
 					</div>
 
 					<div class="treatment-grey-text">
@@ -231,7 +231,7 @@
 				<div class="bottom-buttons-link-bg">
 
 					<div class="pink-text-treatment-buttons">
-						Read ourBlog
+						Read our Blog
 					</div>
 
 					<div class="treatment-grey-text">
