@@ -364,7 +364,7 @@ nav {
 
 .bottom-buttons-link-bg {
 	background:url(img/bottom-buttons-link-bg.png) no-repeat;
-	height: 142px;
+	min-height: 142px;
 	}
 
 .bottom-buttons-bg-color {
@@ -1361,5 +1361,9 @@ nav {
 
 	.contact {
 		padding-top: 0px;
+	}
+
+	#desktop-header {
+		display: none;
 	}
 }

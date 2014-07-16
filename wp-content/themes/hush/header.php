@@ -27,6 +27,8 @@
 
 		<header role="banner">
 
+			<!-- desktop header -->
+		<div class="desktop-header">
 			<div id="header-Bg">
 				<div class="row">
 
@@ -78,6 +80,15 @@
 
 				</div>
 			</div>
+		</div>
+
+			<!-- end of desktop header -->
+
+			<!-- mobile header -->
+
+
+
+			<!-- end of mobile header -->
 
 		</header>
 
