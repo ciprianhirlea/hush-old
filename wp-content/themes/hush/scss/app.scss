@@ -280,12 +280,10 @@ nav {
 
 /*cosmeceuticals page */
 
-#cosmeceuticals-left {
+#cosmeceuticals-left, #cosmeceuticals-right {
 	width: 50%;
-}
-
-#cosmeceuticals-right {
-	width: 50%;
+	display: inline-block;
+	*display: inline;
 }
 
 /* end */
