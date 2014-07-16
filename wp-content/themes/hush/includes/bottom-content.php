@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 	
 
-<?php if (is_page('treatments/dermal-fillers/')) { ?>
+<?php if (is_page('dermal-fillers')) { ?>
 
-<?php } elseif (is_page('treatments/wrinkle-relaxing-injections/')) { ?>
+<?php } elseif (is_page('wrinkle-relaxing-injections')) { ?>
 
-<?php } elseif (is_page('treatments/cosmeceuticals/')) { ?>
+<?php } elseif (is_page('cosmeceuticals')) { ?>
 
 <?php } else { ?>
 
