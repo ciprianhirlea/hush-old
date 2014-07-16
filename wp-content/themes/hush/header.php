@@ -95,6 +95,12 @@
 						<img class="logo" src="<?php bloginfo('template_directory')?>/img/logo.jpg" />
 					</div>
 					</a>
+
+					<div id="header-contact-details">
+						<div class="phone-number">07968 498 223</div> <div class="email-address"><a href="mailto:info@hushaesthetics.com">info@hushaesthetics.com</a></div>
+
+						<div class="twitter"></div><div class="facebook"></div>
+					</div>
 				
 
 			</div>
