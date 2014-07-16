@@ -117,11 +117,11 @@
 
 <div id="callback-pricing-section" class="row">
 
-		<div class="large-6 small-12 no-padding columns">
+		<div class="large-6 small-6 no-padding columns">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/arrange-callback-button.png" />
 		</div>
 
-		<div id="pricing-button" class="large-6 small-12 no-padding columns">
+		<div id="pricing-button" class="large-6 small-6 no-padding columns">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/pricing-button.png" />
 		</div>
 
