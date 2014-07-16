@@ -5,7 +5,7 @@
 
 <div class="row">
 
-	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
+	<div id="bottom-buttons" class="large-12 small-12 columns no-padding dermal">
 
 		<a href="#">
 
@@ -27,10 +27,6 @@
 				</div>
 			</div>
 		</a>
-				
-	</div>
-
-	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
 
 		<a href="#">
 
@@ -53,10 +49,6 @@
 			</div>
 
 		</a>
-				
-	</div>
-
-	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
 
 		<a href="#">
 
