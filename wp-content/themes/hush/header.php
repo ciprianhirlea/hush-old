@@ -98,7 +98,7 @@
 
 					<div id="header-contact-details" class="mobile">
 						<div class="phone-number">07968 498 223</div> <div class="email-address"><a href="mailto:info@hushaesthetics.com">info@hushaesthetics.com</a></div>
-
+						<br><br>
 						<div class="twitter"></div><div class="facebook"></div>
 					</div>
 				
