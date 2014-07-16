@@ -61,7 +61,7 @@ $(document).ready(function() {
         prev : "#prev",
         next : "#next",
         scroll : {
-            items           : 2,
+            items           : 1,
             duration    : 1000,
             imeoutDuration : 2000,                   
             pauseOnHover    : true
