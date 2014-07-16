@@ -102,7 +102,7 @@
 						<div class="twitter"></div><div class="facebook"></div>
 					</div>
 
-					<div class="mobile-menu-button"><div class="mobileButt"></div> Menu</div>
+					<div class="mobile-menu-button"><div class="mobileButt"></div></div>
 
 						<div class="showNav">
 							<?php  wp_nav_menu(array('mobile-menu' => 'Menu 1', 'container_class' => 'mobile-menu', 'items_wrap' => '<ul id="mobile-menu">%3$s</ul>')) ?>
