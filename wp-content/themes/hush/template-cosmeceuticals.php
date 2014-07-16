@@ -61,7 +61,7 @@
 					
 
 				<div class="before-after-carousel">
-hjhhjj					<img src="<?php the_sub_field('cosmeceuticals_image') ?>" >
+					<img src="<?php the_sub_field('cosmeceuticals_image') ?>" >
 					<?php the_sub_field('cosmeceuticals_slider_text') ?>
 					
 				   </div>
