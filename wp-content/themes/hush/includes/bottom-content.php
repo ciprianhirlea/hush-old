@@ -5,11 +5,9 @@
 
 <div class="row">
 
-	<div id="bottom-buttons" class="large-12 small-12 columns no-padding dermal">
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
 
 		<a href="#">
-
-			<div class="dermal-fillers-link">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -28,13 +26,13 @@
 
 				</div>
 			</div>
-
-			</div>
 		</a>
+				
+	</div>
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
 
 		<a href="#">
-
-			<div class="wrinkles-link">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -54,13 +52,13 @@
 
 			</div>
 
-			</div>
-
 		</a>
+				
+	</div>
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
 
 		<a href="#">
-
-			<div class="cosmeceuticals-link">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -76,8 +74,6 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 					</div>
 				</div>
-
-			</div>
 
 			</div>
 
