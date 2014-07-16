@@ -42,8 +42,9 @@
 		</div>
 
 		
+	<div class="carousel-bg">
 
-		<div class="row carousel-bg">
+		<div class="row">
 
 			<div class="large-12 small-12 columns no-padding">
 
@@ -80,6 +81,8 @@
 			</div>
 
 		</div>
+
+	</div>
 	
 	
 		<?php include (TEMPLATEPATH . '/includes/bottom-content.php'); ?>
