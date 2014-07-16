@@ -91,7 +91,9 @@
 
 				
 					<a href="<?php bloginfo('url')?>">
+					<div class="mobile-logo">
 						<img class="logo" src="<?php bloginfo('template_directory')?>/img/logo.jpg" />
+					</div>
 					</a>
 				
 
