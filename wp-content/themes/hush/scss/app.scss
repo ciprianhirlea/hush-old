@@ -1408,7 +1408,7 @@ nav {
 				text-decoration: none;
 				font-size: 16px;
 				text-transform: uppercase;
-				color: #595959;
+				color: $pink;
 				padding-bottom: 10px;
 				font-weight: 700;
 			}
@@ -1417,7 +1417,8 @@ nav {
 	ul.sub-menu {
 
 		padding: 0px;
-		background-color: #D3BBBE;
+		background-color: $pink;
+		color: #FFFFFF;
 
 			li {
 				list-style: none;
