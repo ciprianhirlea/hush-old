@@ -3,9 +3,249 @@
 
 <?php if (is_page('dermal-fillers')) { ?>
 
+<div class="row">
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
+
+		<a href="<?php bloginfo('url')?>/blog/">
+
+			<div class="bottom-buttons-bg-color">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/img/blog.jpg" />
+
+				<div class="bottom-buttons-link-bg">
+
+					<div class="pink-text-treatment-buttons">
+						Blog
+					</div>
+
+					<div class="treatment-grey-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					</div>
+
+
+				</div>
+			</div>
+		</a>
+				
+	</div>
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
+
+		<a href="<?php bloginfo('url')?>/treatments/wrinkle-relaxing-injections/">
+
+			<div class="bottom-buttons-bg-color">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/img/wrinkle-home-button.jpg" />
+
+				<div class="bottom-buttons-link-bg">
+
+					<div class="pink-text-treatment-buttons">
+						Wrinkle Relaxing Injections
+					</div>
+
+					<div class="treatment-grey-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					</div>
+
+				</div>
+
+			</div>
+
+		</a>
+				
+	</div>
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
+
+		<a href="<?php bloginfo('url')?>/treatments/cosmeceuticals/">
+
+			<div class="bottom-buttons-bg-color">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/img/cosmeceuticals-home-button.jpg" />
+
+				<div class="bottom-buttons-link-bg">
+
+					<div class="pink-text-treatment-buttons">
+						Cosmeceuticals
+					</div>
+
+					<div class="treatment-grey-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					</div>
+				</div>
+
+			</div>
+
+		</a>
+				
+	</div>
+
+</div>
+
 <?php } elseif (is_page('wrinkle-relaxing-injections')) { ?>
 
+<div class="row">
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
+
+		<a href="<?php bloginfo('url')?>/treatments/dermal-fillers/">
+
+			<div class="bottom-buttons-bg-color">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/img/dermal-home-button.jpg" />
+
+				<div class="bottom-buttons-link-bg">
+
+					<div class="pink-text-treatment-buttons">
+						Dermal Fillers
+					</div>
+
+					<div class="treatment-grey-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					</div>
+
+
+				</div>
+			</div>
+		</a>
+				
+	</div>
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
+
+		<a href="<?php bloginfo('url')?>/treatments/blog/">
+
+			<div class="bottom-buttons-bg-color">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/img/blog.jpg" />
+
+				<div class="bottom-buttons-link-bg">
+
+					<div class="pink-text-treatment-buttons">
+						Blog
+					</div>
+
+					<div class="treatment-grey-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					</div>
+
+				</div>
+
+			</div>
+
+		</a>
+				
+	</div>
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
+
+		<a href="<?php bloginfo('url')?>/treatments/cosmeceuticals/">
+
+			<div class="bottom-buttons-bg-color">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/img/cosmeceuticals-home-button.jpg" />
+
+				<div class="bottom-buttons-link-bg">
+
+					<div class="pink-text-treatment-buttons">
+						Cosmeceuticals
+					</div>
+
+					<div class="treatment-grey-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					</div>
+				</div>
+
+			</div>
+
+		</a>
+				
+	</div>
+
+</div>
+
 <?php } elseif (is_page('cosmeceuticals')) { ?>
+
+<div class="row">
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
+
+		<a href="<?php bloginfo('url')?>/treatments/dermal-fillers/">
+
+			<div class="bottom-buttons-bg-color">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/img/dermal-home-button.jpg" />
+
+				<div class="bottom-buttons-link-bg">
+
+					<div class="pink-text-treatment-buttons">
+						Dermal Fillers
+					</div>
+
+					<div class="treatment-grey-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					</div>
+
+
+				</div>
+			</div>
+		</a>
+				
+	</div>
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
+
+		<a href="<?php bloginfo('url')?>/treatments/wrinkle-relaxing-injections/">
+
+			<div class="bottom-buttons-bg-color">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/img/wrinkle-home-button.jpg" />
+
+				<div class="bottom-buttons-link-bg">
+
+					<div class="pink-text-treatment-buttons">
+						Wrinkle Relaxing Injections
+					</div>
+
+					<div class="treatment-grey-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					</div>
+
+				</div>
+
+			</div>
+
+		</a>
+				
+	</div>
+
+	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
+
+		<a href="<?php bloginfo('url')?>/blog">
+
+			<div class="bottom-buttons-bg-color">
+
+				<img src="<?php echo get_template_directory_uri(); ?>/img/blog.jpg" />
+
+				<div class="bottom-buttons-link-bg">
+
+					<div class="pink-text-treatment-buttons">
+						Blog
+					</div>
+
+					<div class="treatment-grey-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					</div>
+				</div>
+
+			</div>
+
+		</a>
+				
+	</div>
+
+</div>
 
 <?php } else { ?>
 
