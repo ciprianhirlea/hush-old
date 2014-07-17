@@ -344,16 +344,16 @@
 			
 			<div class="featured-testimonial-text">
 
-				<div class="cycle-slideshow"  data-cycle-fx="scrollHorz"  data-cycle-timeout="2000" data-cycle-slides="> div">
-
-					<div class="testimonialBox">
+				<div class="testimonialBox">
 					<?php $loop = new WP_Query( array('post_type' => array('featured_testimonial',),) ); ?>
 					<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-					
-					<p><?php the_content() ?></p>
 
-					<?php endwhile; ?>
+					<div class="cycle-slideshow"  data-cycle-fx="scrollHorz"  data-cycle-timeout="2000" data-cycle-slides="> div">
+						<div>
+							<p><?php the_content() ?></p>
+						</div>
 					</div>
+					<?php endwhile; ?>
 				
 				</div>
 
