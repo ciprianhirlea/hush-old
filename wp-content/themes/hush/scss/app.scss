@@ -420,9 +420,13 @@ nav {
 	font-weight: 100;
 	text-align: center;
 	line-height: 36px;
+	margin: 0px;
 }
 
-.cycle-slideshow { width: 100% }
+.cycle-slideshow { 
+	width: 100%; 
+	margin-top: 20px;
+}
 
 /* end */
 
