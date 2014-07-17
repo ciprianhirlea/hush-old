@@ -197,6 +197,11 @@ nav {
 			text-decoration: none;
 			font-size: 18px;
 			color: #979798;
+
+			&:hover {
+				font-weight: bold;
+				color: $pink;
+			}
 		}
 	}
 
@@ -206,11 +211,6 @@ nav {
 		padding-left: 12px;
 		border-right: 1px solid #c5c5c5;
 		position: relative;
-
-		&:hover {
-			font-weight: bold;
-			color: $pink;
-		}
 
 		&.first {
 			padding-left: 0px;
