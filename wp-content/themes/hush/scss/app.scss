@@ -1356,14 +1356,11 @@ nav {
 	
 	#bottom-buttons {
 		width: 94%;
-
-		.cosmeceuticals {
-			max-width: 100%;
-		}
 	}
 
 	.cosmeceuticals {
 			position: relative !important;
+			max-width: 100% !important;
 	}
 
 	.price-list-left {
