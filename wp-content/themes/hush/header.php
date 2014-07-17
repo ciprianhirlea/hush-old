@@ -84,7 +84,7 @@
 						</a>
 					</div>
 
-					<div class="large-8 columns no-padding">
+					<div class="large-10 small-10 columns no-padding">
 
 						<nav>
 
