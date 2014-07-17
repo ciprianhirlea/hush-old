@@ -1336,7 +1336,11 @@ nav {
 	left:0px;
 }
 .nivo-nextNav {
-	right:0px;
+	right: 0px;
+	width: 60px;
+	height: 62px;
+	background: url("img/next.jpg") no-repeat 0 2px;
+	text-indent: -9999px;
 }
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
