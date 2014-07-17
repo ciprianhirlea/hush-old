@@ -372,13 +372,17 @@
 
 <div id="callback-pricing-section" class="row">
 
+	<a href="<?php bloginfo('url')?>/contact-us/">
 		<div class="large-6 small-6 no-padding columns">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/arrange-callback-button.png" />
 		</div>
+	</a>
 
+	<a href="<?php bloginfo('url')?>/prices/">
 		<div id="pricing-button" class="large-6 small-6 no-padding columns">
 			<img src="<?php echo get_template_directory_uri(); ?>/img/pricing-button.png" />
 		</div>
+	</a>
 
 	</div>
 
