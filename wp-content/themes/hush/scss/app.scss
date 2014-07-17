@@ -199,7 +199,8 @@ nav {
 			color: #979798;
 
 			&:hover {
-				text-decoration: underline;
+				font-weight: bold;
+				color: $pink;
 			}
 		}
 	}
