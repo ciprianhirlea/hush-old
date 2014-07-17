@@ -349,7 +349,7 @@
 					<?php $loop = new WP_Query( array('post_type' => array('featured_testimonial',),) ); ?>
 					<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 					
-					<span><?php the_content() ?></span>
+					<div><?php the_content() ?></div>
 
 					<?php endwhile; ?>
 					</div>
