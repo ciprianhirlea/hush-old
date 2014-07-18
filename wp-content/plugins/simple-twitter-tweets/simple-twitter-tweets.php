@@ -546,7 +546,7 @@ class PI_SimpleTwitterTweets extends WP_Widget{
 							</div>
 								<div class="intent-meta">
 
-									<span class="read-more">Read more on Twitter</span>
+									<span class="read-more"><a href="https://twitter.com/hushaesthetics">Read more on Twitter</a></span>
 									<a href="http://twitter.com/intent/tweet?in_reply_to=<?php echo $t['tweet_id']; ?>" data-lang="en" class="in-reply-to" title="Reply" target="_blank">
 										<span aria-hidden="true" data-icon="&#xf079;" <?php echo ($intentColor) ? 'style="color:'.$intentColor.';"' :''; ?>></span>
 										<span <?php echo ($twitterIntentsText) ? 'class="pi-visuallyhidden"':''; ?>>Reply</span></a>
