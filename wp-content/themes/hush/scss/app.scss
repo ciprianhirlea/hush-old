@@ -892,6 +892,14 @@ nav {
 		color: #9c9c9c;
 		font-weight: 100;
 		font-size: 16px;
+
+		a {
+			color: #9c9c9c;
+		}
+
+		&:hover {
+			color: $pink;
+		}
 	}
 }
 
