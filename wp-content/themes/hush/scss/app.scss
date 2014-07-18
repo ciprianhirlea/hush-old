@@ -66,7 +66,20 @@ strong {
 		color: $pink;
 }
 
+ul {
+		list-style-type: none;
+    		padding: 0px;
+    		margin: 0px;
 
+		li {
+			padding-bottom: 15px;
+			background-image: url(img/bullet-point.jpg);
+			background-repeat: no-repeat;
+    			background-position: 0px 10px; 
+    			padding-left: 14px; 
+    			line-height: 24px;
+		}
+	}
 
 
 
@@ -297,6 +310,8 @@ nav {
 	&#cosmeceuticals-right {
 		padding-right: 0px;
 	}
+
+	
 }
 
 .carousel_wrapper_cosmeceuticals {
