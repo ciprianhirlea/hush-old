@@ -116,7 +116,7 @@
 					<div id="header-contact-details" class="mobile">
 						<div class="phone-number">07968 498 223</div> <div class="email-address"><a href="mailto:info@hushaesthetics.com">info@hushaesthetics.com</a></div>
 						<br><br>
-						<div class="twitter"></div><div class="facebook"></div>
+						<a href="https://twitter.com/hushaesthetics"><div class="twitter"></div></a><a href="https://www.facebook.com/SeAestheticBeauty"><div class="facebook"></div></a>
 					</div>
 
 					<div class="mobile-menu-button"><div class="mobileButt"></div></div>
