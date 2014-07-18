@@ -29,7 +29,7 @@
 
 			<div class="large-6 small-12 columns" id="cosmeceuticals-right">
 
-						<?php the_field('right_col') ?>
+						<?php the_field('right_col_peels') ?>
 
 						
 
