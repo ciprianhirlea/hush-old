@@ -346,7 +346,7 @@
 
 				<div class="testimonialBox">
 
-					<div class="cycle-slideshow"  data-cycle-fx="fade"   data-cycle-timeout="2000" data-cycle-slides="> div">
+					<div class="cycle-slideshow"  data-cycle-fx="fade"   data-cycle-timeout="8000" data-cycle-slides="> div">
 					<?php $loop = new WP_Query( array('post_type' => array('featured_testimonial',),) ); ?>
 					<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 						<div>
