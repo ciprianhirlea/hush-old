@@ -11,7 +11,7 @@
 						<div class="footer-links">
 							<a class="main-site-link" href="http://hushaesthetics.com">hushaesthetics.com</a>
 
-							<div class="grey-footer-links">Privacy Policy | Cookie Policy | Terms and Conditions</div>
+							<div class="grey-footer-links"><a href="<?php bloginfo('url')?>/privacy-policy">Privacy Policy</a> | <a href="<?php bloginfo('url')?>/cookie-policy">Cookie Policy</a> | <a href="<?php bloginfo('url')?>/terms-and-conditions">Terms and Conditions</a></div>
 						</div>
 
 					</div>
