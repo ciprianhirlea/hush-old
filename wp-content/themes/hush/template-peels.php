@@ -19,7 +19,7 @@
 
 		<div class="row">
 
-			<div class="large-6 small-12 columns" id="cosmeceuticals-left">
+			<div class="large-6 small-12 columns" id="cosmeceuticals-left treatment-content">
 
 					<?php while (have_posts()) : the_post(); ?>
 
@@ -27,7 +27,7 @@
 
 			</div>
 
-			<div class="large-6 small-12 columns" id="cosmeceuticals-right">
+			<div class="large-6 small-12 columns" id="cosmeceuticals-right treatment-content">
 
 						<?php the_field('right_col_peels') ?>
 
