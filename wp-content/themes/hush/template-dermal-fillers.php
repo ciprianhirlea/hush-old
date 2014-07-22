@@ -35,11 +35,8 @@
 					 	// loop through the rows of data
 					    	while ( have_rows('treated_areas') ) : the_row();
 						?>
-          						<div class="faqcontent">
+          						<div class="treated-area">
             	 					<div class="show_hide"><div class="faq-question"><?php the_sub_field('treated_area');?></div>
-
-	                 					<div class="arrow-up"><img src="<?php bloginfo('template_url'); ?>/img/minus.jpg" alt="" /></div>
-	    						<div class="arrow-down"><img src="<?php bloginfo('template_url'); ?>/img/plus.jpg" alt="" /></div>
 	                 
                					</div>
                  					</div>
