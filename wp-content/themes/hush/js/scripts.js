@@ -119,6 +119,19 @@ $(document).ready(function(){
   
 });
 
+$(document).ready(function(){
+ 
+        $(".slidingDiv").hide();
+ 
+    $('.treated-area').click(function(){
+    $(this).next(".slidingDiv").slideToggle(500);
+    $(this).find(".arrow-up, .arrow-down").toggle();
+    return false;
+    
+    });
+  
+});
+
     $(document).ready(function() {
    $('.mobile-menu-button').click(function() {
        $('.showNav').slideToggle('slow');
