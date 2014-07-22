@@ -20,7 +20,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 
 
@@ -45,7 +45,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 
 				</div>
@@ -71,7 +71,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 				</div>
 
@@ -102,7 +102,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 
 
@@ -127,7 +127,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 
 				</div>
@@ -153,7 +153,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 				</div>
 
@@ -184,7 +184,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 
 
@@ -209,7 +209,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 
 				</div>
@@ -235,7 +235,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 				</div>
 
@@ -268,7 +268,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 
 
@@ -293,7 +293,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 
 				</div>
@@ -319,7 +319,7 @@
 					</div>
 
 					<div class="treatment-grey-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						<!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 					</div>
 				</div>
 
