@@ -36,7 +36,7 @@
 					    	while ( have_rows('treated_areas') ) : the_row();
 						?>
           						<div class="treated-area">
-            	 					<div class="show_hide"><div class="faq-question"><?php the_sub_field('treated_area');?></div>
+            	 					<div class="show_hide"><div class="treatment-link"><?php the_sub_field('treated_area');?></div>
 	                 
                					</div>
                  					</div>
