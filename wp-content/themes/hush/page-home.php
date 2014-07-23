@@ -1,3 +1,5 @@
+<?php /* Template Name: footer pages */ get_header(); ?>
+
 <?php get_header(); ?>
 	
 	<!-- section -->
@@ -11,8 +13,18 @@
 				</div>
 			</div>
 
-		</div>	
-	
+		</div>
+
+		<div class="row">
+
+			<div class="large-12 small-12 columns no-padding">
+
+				<?php the_content() ?>
+
+			</div>
+
+		</div>
+
 		<?php include (TEMPLATEPATH . '/includes/bottom-content.php'); ?>
 
 	</section>
