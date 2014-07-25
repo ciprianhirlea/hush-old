@@ -27,12 +27,11 @@ var gf_placeholder = function() {
 			$field[0].setAttribute('placeholder', label);
 		});
 
-	var support = (!('placeholder' in document.createElement('input'))); // borrowed from Modernizr.com
-	if ( support && jquery_placeholder_url )
+	var if ( support && gf_placeholder_vars.jquery_placeholder_url )
 		$.ajax({
 			cache: true,
 			dataType: 'script',
-			url: jquery_placeholder_url,
+			url: gf_placeholder_vars.jquery_placeholder_url,
 			success: function() {
 				$('input[placeholder], textarea[placeholder]').placeholder({
 					blankSubmit: true
