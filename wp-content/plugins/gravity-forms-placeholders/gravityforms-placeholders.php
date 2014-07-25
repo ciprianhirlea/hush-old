@@ -15,7 +15,7 @@ Just add a "gplaceholder" CSS classname to the required fields or form
 if ( isset( $GLOBALS['pagenow'] ) && $GLOBALS['pagenow'] == 'wp-login.php' )
 	return;
 
-aadd_action('wp_enqueue_scripts', 'gf_placeholder_addon_script_enqueue');
+add_action('wp_enqueue_scripts', 'gf_placeholder_addon_script_enqueue');
 
 function gf_placeholder_addon_script_enqueue() {
 	$placeholder_js = plugins_url( basename(dirname(__FILE__)) ).'"/jquery.placeholder-1.0.1.js';
