@@ -61,7 +61,7 @@ module.exports = function(grunt) {
             dist: {
                files:{
                 'js/min/plugins.js' : ['js/plugins/jquery-1.11.0.js', 'js/plugins/foundation.js'],
-                'js/min/main.js' : ['js/scripts.js','js/jquery.nivo.slider.js','js/jquery.fancybox.pack.js','js/jquery.fancybox.pack.js','js/jquery.carouFredSel.js']
+                'js/min/main.js' : ['js/*.js']
                }
             }           
         },

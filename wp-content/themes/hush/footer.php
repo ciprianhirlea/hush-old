@@ -62,8 +62,7 @@
 })*/
   </script>
 
-  <script src="<?php bloginfo('template_directory')?>/js/jquery.placeholder-1.0.1.js" type="text/javascript"></script>
-    <script src="<?php bloginfo('template_directory')?>/js/gf.placeholders.js" type="text/javascript"></script>
+  
 
 		<!-- analytics -->
 		<script>
