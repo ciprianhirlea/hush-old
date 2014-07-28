@@ -47,9 +47,6 @@ function development_enqueue_assets(){
     wp_register_script('jquery', get_template_directory_uri() . '/js/plugins/jquery-1.11.0.js');
     wp_enqueue_script('jquery'); // Enqueue it!
 
-    wp_register_script('placeholder-second', get_template_directory_uri() . '/js/gf.placeholders.js', 'jquery');
-    wp_enqueue_script('placeholder-second'); // Enqueue it!
-
     wp_register_script('fancybox', get_template_directory_uri() . '/js/jquery.fancybox.js', 'jquery');
     wp_enqueue_script('fancybox'); // Enqueue it!
 
@@ -62,9 +59,11 @@ function development_enqueue_assets(){
     wp_register_script('cycle', get_template_directory_uri() . '/js/cycle.js', 'jquery');
     wp_enqueue_script('cycle'); // Enqueue it!
 
-
     wp_register_script('nivoslider', get_template_directory_uri() . '/js/jquery.nivo.slider.js', 'jquery');
     wp_enqueue_script('nivoslider'); // Enqueue it!
+
+ wp_register_script('placeholder-second', get_template_directory_uri() . '/js/gf.placeholders.js', 'jquery');
+    wp_enqueue_script('placeholder-second'); // Enqueue it!
 
     // Use this to include other foundation JS
     // Remember to update the gruntfile
