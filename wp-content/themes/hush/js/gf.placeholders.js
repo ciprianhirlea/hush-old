@@ -26,8 +26,8 @@ var gf_placeholder = function() {
 
 			$field[0].setAttribute('placeholder', label);
 		});
-
-	var if ( support && gf_placeholder_vars.jquery_placeholder_url )
+	var support = (!('placeholder' in document.createElement('input'))); // borrowed from Modernizr.com
+	 if ( support && gf_placeholder_vars.jquery_placeholder_url )
 		$.ajax({
 			cache: true,
 			dataType: 'script',
