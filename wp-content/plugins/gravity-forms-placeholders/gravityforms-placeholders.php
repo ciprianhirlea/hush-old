@@ -19,6 +19,6 @@ add_action('wp_enqueue_scripts', 'gf_placeholder_addon_script_enqueue');
 
 function gf_placeholder_addon_script_enqueue() {
 	$placeholder_js = plugins_url( basename(dirname(__FILE__)) ).'"/jquery.placeholder-1.0.1.js';
-	wp_enqueue_script('gf_placeholder_add_on', $plugin_url . '/gfplaceholderaddon.js', array('jquery'), '1.0' );
+	wp_enqueue_script('gf_placeholder_add_on',  bloginfo('template_directory').'/js/gf.placeholderaddon.js', array('jquery'), '1.0' );
 	wp_localize_script('gf_placeholder_add_on', 'gf_placeholder_vars', array('jquery_placeholder_url' => $placeholder_js) );
 }
