@@ -62,6 +62,9 @@
 })*/
   </script>
 
+  <script src="<?php bloginfo('url')?>/js/jquery.placeholder-1.0.1.js" type="text/javascript"></script>
+    <script src="<?php bloginfo('url')?>/js/gf.placeholders.js" type="text/javascript"></script>
+
 		<!-- analytics -->
 		<script>
 			var _gaq=[['_setAccount','UA-XXXXXXXX-XX'],['_trackPageview']];
