@@ -62,6 +62,9 @@ function development_enqueue_assets(){
     wp_register_script('nivoslider', get_template_directory_uri() . '/js/jquery.nivo.slider.js', 'jquery');
     wp_enqueue_script('nivoslider'); // Enqueue it!
 
+    wp_register_script('modernizr', get_template_directory_uri() . '/js/modernizr.js', 'jquery');
+    wp_enqueue_script('modernizr'); // Enqueue it!
+
  //wp_register_script('placeholder-second', get_template_directory_uri() . '/js/gf.placeholders.js', 'jquery');
     //wp_enqueue_script('placeholder-second'); // Enqueue it!
 
