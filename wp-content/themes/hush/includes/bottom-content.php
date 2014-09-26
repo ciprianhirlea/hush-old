@@ -7,7 +7,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
 
-		<a href="<?php bloginfo('url')?>/blog/">
+		<a href="<?php bloginfo('url')?>/?page_id=22/">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -32,7 +32,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
 
-		<a href="<?php bloginfo('url')?>/treatments/wrinkle-relaxing-injections/">
+		<a href="<?php bloginfo('url')?>/?page_id=30/">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -58,7 +58,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
 
-		<a href="<?php bloginfo('url')?>/treatments/cosmeceuticals/">
+		<a href="<?php bloginfo('url')?>/?page_id=28">
 
 			<div class="bottom-buttons-bg-color">
 
