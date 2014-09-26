@@ -140,7 +140,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
 
-		<a href="<?php bloginfo('url')?>/?page_id=36">
+		<a href="<?php bloginfo('url')?>/?page_id=30">
 
 			<div class="bottom-buttons-bg-color">
 
