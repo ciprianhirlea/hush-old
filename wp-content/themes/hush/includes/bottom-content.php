@@ -89,7 +89,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
 
-		<a href="<?php bloginfo('url')?>/treatments/dermal-fillers/">
+		<a href="<?php bloginfo('url')?>/?page_id=28">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -114,7 +114,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
 
-		<a href="<?php bloginfo('url')?>/blog/">
+		<a href="<?php bloginfo('url')?>/?page_id=22">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -140,7 +140,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
 
-		<a href="<?php bloginfo('url')?>/treatments/cosmeceuticals/">
+		<a href="<?php bloginfo('url')?>/?page_id=36">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -171,7 +171,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
 
-		<a href="<?php bloginfo('url')?>/treatments/dermal-fillers/">
+		<a href="<?php bloginfo('url')?>/?page_id=28">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -196,7 +196,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
 
-		<a href="<?php bloginfo('url')?>/treatments/wrinkle-relaxing-injections/">
+		<a href="<?php bloginfo('url')?>/?page_id=30">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -222,7 +222,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
 
-		<a href="<?php bloginfo('url')?>/blog">
+		<a href="<?php bloginfo('url')?>/?page_id=22">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -255,7 +255,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
 
-		<a href="<?php bloginfo('url')?>/treatments/dermal-fillers/">
+		<a href="<?php bloginfo('url')?>/?page_id=28">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -280,7 +280,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding wrinkle">
 
-		<a href="<?php bloginfo('url')?>/treatments/wrinkle-relaxing-injections/">
+		<a href="<?php bloginfo('url')?>/?page_id=30">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -306,7 +306,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding cosmeceuticals ">
 
-		<a href="<?php bloginfo('url')?>/treatments/cosmeceuticals/">
+		<a href="<?php bloginfo('url')?>/?page_id=36">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -372,13 +372,13 @@
 
 <div id="callback-pricing-section" class="row">
 
-	<a href="<?php bloginfo('url')?>/contact-us/">
+	<a href="<?php bloginfo('url')?>/?page_id=25">
 		<div class="large-6 small-12 no-padding columns">
 			<img class="callback-pricing-buttons" src="<?php echo get_template_directory_uri(); ?>/img/arrange-callback-button.png" />
 		</div>
 	</a>
 
-	<a class="callback-pricing-buttons" href="<?php bloginfo('url')?>/prices/">
+	<a class="callback-pricing-buttons" href="<?php bloginfo('url')?>/?page_id=16">
 		<div id="pricing-button" class="large-6 small-12 no-padding columns">
 			<img class="callback-pricing-buttons" src="<?php echo get_template_directory_uri(); ?>/img/pricing-button.png" />
 		</div>
