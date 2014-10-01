@@ -41,9 +41,9 @@
 
 						<span>T.</span><?php the_field('telephone') ?>
 						<br><br>
-						<span>E.</span><a href="<?php the_field('email')?>"><?php the_field('email') ?></a>
+						<span>E.</span><a href="mailto:<?php the_field('email')?>"><?php the_field('email') ?></a>
 						<br><br>
-						<div class="twitter"></div><div class="facebook"></div>
+						<a href="https://twitter.com/hushaesthetics"><div class="twitter"></div></a><a href="https://www.facebook.com/SeAestheticBeauty"><div class="facebook"></div></a>
 
 					<?php endwhile ?>
 
