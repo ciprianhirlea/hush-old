@@ -41,7 +41,7 @@
 
 						<span>T.</span><?php the_field('telephone') ?>
 						<br><br>
-						<span>E.</span><a href="mailto:beverley.jenik@gmail.com"><?php the_field('email') ?></a>
+						<span>E.</span><a href="mailto:hushaesthetics@gmail.com"><?php the_field('email') ?></a>
 						<br><br>
 						<a target="_blank" href="https://twitter.com/hushaesthetics"><div class="twitter"></div></a><a target="_blank" href="https://www.facebook.com/SeAestheticBeauty"><div class="facebook"></div></a>
 

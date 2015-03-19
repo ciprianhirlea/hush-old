@@ -64,7 +64,7 @@
 
 					<div class="large-10 small-10 columns no-padding">
 						<div id="header-contact-details">
-							<div class="phone-number">07968 498 223</div> <div class="email-address"><a href="mailto:beverley.jenik@gmail.com">info@hushaesthetics.com</a></div>
+							<div class="phone-number">07968 498 223</div> <div class="email-address"><a href="mailto:hushaesthetics@gmail.com">info@hushaesthetics.com</a></div>
 
 							<a href="https://twitter.com/hushaesthetics"><div class="twitter"></div></a><a href="https://www.facebook.com/SeAestheticBeauty"><div class="facebook"></div></a>
 						</div>
