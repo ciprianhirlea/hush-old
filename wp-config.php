@@ -89,3 +89,7 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('WP_HOME','https://hush.ciprianhirlea.com');
+define('WP_SITEURL','https://hush.ciprianhirlea.com');
+define('FS_METHOD','direct');

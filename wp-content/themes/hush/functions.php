@@ -55,11 +55,7 @@ function add_slug_to_body_class($classes)
     return $classes;
 }
 
-// Remove Admin bar
-function remove_admin_bar()
-{
-    return false;
-}
+
 
 // Custom Excerpts
 function windmill_index($length) // Create 20 Word Callback for Index page Excerpts
