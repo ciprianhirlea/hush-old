@@ -1,5 +1,10 @@
 ### [HTML5 Blank](http://html5blank.com) Changelog
 
+## 1.4.3 (23 June 2019)
+* Removed Environment Variables
+* Updated Theme Screenshot
+* Modified Theme Icons
+
 ## 1.4.2 (15 June, 2013)
 
 * Add _font-size:62.5%;_ to the HTML element in CSS for _rem_ (relative-ems) sizing
