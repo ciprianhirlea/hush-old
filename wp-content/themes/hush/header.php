@@ -16,7 +16,7 @@
 
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
 
-
+		<script src="https://kit.fontawesome.com/953c512df7.js"></script>
 		<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/img/icons/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/img/icons/apple-touch-icon-114x114.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/img/icons/apple-touch-icon-72x72.png">
@@ -60,9 +60,11 @@
 
 					<div class="large-10 small-10 columns no-padding">
 						<div id="header-contact-details">
-							<div class="phone-number">07968 498 223</div> <div class="email-address"><a href="mailto:hushaesthetics@gmail.com">hushaesthetics@gmail.com</a></div>
+							<div class="phone-number"><a href="tel:+447968498223">07968 498 223</a></div> 
+							<div class="email-address"><a href="mailto:hushaesthetics@gmail.com">hushaesthetics@gmail.com</a></div>
 
-							<a href="https://twitter.com/hushaesthetics"><div class="twitter"></div></a><a href="https://www.facebook.com/SeAestheticBeauty"><div class="facebook"></div></a>
+							<a href="https://twitter.com/hushaesthetics"><i class="fab fa-twitter" style="margin-right:8px"></i></a>
+							<a href="https://www.facebook.com/SeAestheticBeauty"><i class="fab fa-facebook-f"></i></i></a>
 						</div>
 
 						<nav>
@@ -117,12 +119,16 @@
 					</a>
 
 					<div id="header-contact-details" class="mobile">
-						<div class="phone-number">07968 498 223</div> <div class="email-address"><a href="mailto:beverley.jenik@gmail.com">info@hushaesthetics.com</a></div>
-						<br><br>
-						<a href="https://twitter.com/hushaesthetics"><div class="twitter"></div></a><a href="https://www.facebook.com/SeAestheticBeauty"><div class="facebook"></div></a>
+
+						<a href="tel:+447968498223"><i class="fas fa-phone"></i></a>
+						<a href="mailto:hushaesthetics@gmail.com"><i class="fas fa-envelope" ></i></a>
+
+						<a href="https://twitter.com/hushaesthetics"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/SeAestheticBeauty"><i class="fab fa-facebook-f"></i></i></a>
+						
 					</div>
 
-					<div class="mobile-menu-button"><div class="mobileButt"></div></div>
+					<div class="mobile-menu-button"><i class="fa fa-bars"></i></div>
 
 						<div class="showNav">
 							<?php  wp_nav_menu(array('mobile-menu' => 'Menu 1', 'container_class' => 'mobile-menu', 'items_wrap' => '<ul id="mobile-menu">%3$s</ul>')) ?>
