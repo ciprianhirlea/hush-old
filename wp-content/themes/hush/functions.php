@@ -19,17 +19,69 @@ function header_scripts()
 function is_login_page() {
     return in_array($GLOBALS['pagenow'], array('wp-login.php', 'wp-register.php'));
 }
-header_scripts();
 
-wp_register_script('jquery', get_template_directory_uri() . '/js/min/plugins.js');
-wp_enqueue_script('jquery'); // Enqueue it!
+/**
+ * Scripts for production environment
+ */
+function production_enqueue_assets(){
 
-wp_register_script('min', get_template_directory_uri() . '/js/min/main.js', 'jquery');
-wp_enqueue_script('min'); // Enqueue it!
+    header_scripts();
 
-wp_register_style('style', get_template_directory_uri() . '/style.css');
-wp_enqueue_style('style'); // Enqueue it!
+    wp_register_script('jquery', get_template_directory_uri() . '/js/min/plugins.js');
+    wp_enqueue_script('jquery'); // Enqueue it!
 
+    wp_register_script('min', get_template_directory_uri() . '/js/min/main.js', 'jquery');
+    wp_enqueue_script('min'); // Enqueue it!
+
+    wp_register_style('style', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('style'); // Enqueue it!
+}
+
+/**
+ * Assets for development environment
+ */
+function development_enqueue_assets(){
+
+    header_scripts();
+
+    wp_register_script('jquery', get_template_directory_uri() . '/js/plugins/jquery-1.11.0.js');
+    wp_enqueue_script('jquery'); // Enqueue it!
+
+    wp_register_script('fancybox', get_template_directory_uri() . '/js/jquery.fancybox.js', 'jquery');
+    wp_enqueue_script('fancybox'); // Enqueue it!
+
+    wp_register_script('caroufredsel', get_template_directory_uri() . '/js/jquery.carouFredSel.js', 'jquery');
+    wp_enqueue_script('caroufredsel'); // Enqueue it!
+
+    wp_register_script('foundation', get_template_directory_uri() . '/js/plugins/foundation.js', 'jquery');
+    wp_enqueue_script('foundation'); // Enqueue it!
+
+    wp_register_script('cycle', get_template_directory_uri() . '/js/cycle.js', 'jquery');
+    wp_enqueue_script('cycle'); // Enqueue it!
+
+    wp_register_script('nivoslider', get_template_directory_uri() . '/js/jquery.nivo.slider.js', 'jquery');
+    wp_enqueue_script('nivoslider'); // Enqueue it!
+
+    wp_register_script('modernizr', get_template_directory_uri() . '/js/modernizr.js', 'jquery');
+    wp_enqueue_script('modernizr'); // Enqueue it!
+
+ //wp_register_script('placeholder-second', get_template_directory_uri() . '/js/gf.placeholders.js', 'jquery');
+    //wp_enqueue_script('placeholder-second'); // Enqueue it!
+
+    // Use this to include other foundation JS
+    // Remember to update the gruntfile
+    // wp_register_script('foundation-tab', get_template_directory_uri() . '/foundation/bower_components/foundation/js/foundation.tab.js', 'foundation');
+    // wp_enqueue_script('foundation-tab'); // Enqueue it!
+
+    wp_register_script('script', get_template_directory_uri() . '/js/scripts.js', 'jquery');
+    wp_enqueue_script('script'); // Enqueue it!
+
+    wp_register_style('style', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('style'); // Enqueue it!
+
+    wp_register_script('livereload', '//localhost:35729/livereload.js');
+    wp_enqueue_script('livereload'); // Enqueue it!
+}
 
 // Remove invalid rel attribute values in the categorylist
 function remove_category_rel_from_category_list($thelist)
@@ -55,7 +107,11 @@ function add_slug_to_body_class($classes)
     return $classes;
 }
 
-
+// Remove Admin bar
+function remove_admin_bar()
+{
+    return false;
+}
 
 // Custom Excerpts
 function windmill_index($length) // Create 20 Word Callback for Index page Excerpts
@@ -98,6 +154,21 @@ function windmill_pagination()
     Actions + Filters + ShortCodes
 \*------------------------------------*/
 
+
+switch(WP_ENV){
+    case 'development':
+        add_action( 'wp_enqueue_scripts', 'development_enqueue_assets');
+        break;
+
+    case 'production':
+    case 'staging':
+        add_action( 'wp_enqueue_scripts', 'development_enqueue_assets');
+        break;
+
+    default:
+        add_action( 'wp_enqueue_scripts', 'development_enqueue_assets');
+        break;
+}
 
 /**
  * Removes scripts from head
@@ -160,14 +231,15 @@ function create_featured_testimonial_type() {
     register_post_type( 'featured_testimonial',
         array(
             'labels' => array(
-                'name' => __( 'featured testimonial' ),
-                'singular_name' => __( 'featured testimonial' )
+                'name' => __( 'Featured testimonials' ),
+                'singular_name' => __( 'Featured testimonial' )
             ),
         'public' => true,
         'has_archive' => true,
         'rewrite' => array('slug' => 'post'),
         'supports' => array( 'title', 'editor', 'thumbnail' ),
-        'taxonomies' => array('category', 'post_tag') // this is IMPORTANT
+        'taxonomies' => array('category', 'post_tag'), // this is IMPORTANT
+		'menu_icon' => 'dashicons-id'
         )
     );
 }
@@ -178,14 +250,15 @@ function create_testimonials_type() {
     register_post_type( 'testimonials',
         array(
             'labels' => array(
-                'name' => __( 'testimonials' ),
-                'singular_name' => __( 'testimonial' )
+                'name' => __( 'Testimonials' ),
+                'singular_name' => __( 'Testimonial' )
             ),
         'public' => true,
         'has_archive' => true,
         'rewrite' => array('slug' => 'post'),
         'supports' => array( 'title', 'editor', 'thumbnail' ),
-        'taxonomies' => array('category', 'post_tag') // this is IMPORTANT
+        'taxonomies' => array('category', 'post_tag'), // this is IMPORTANT
+		'menu_icon' => 'dashicons-smiley'
         )
     );
 }
