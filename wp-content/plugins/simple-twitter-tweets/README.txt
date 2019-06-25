@@ -3,8 +3,8 @@ Contributors: Planet Interactive
 Donate: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A9437VN7R36VN
 Tags: Twitter, Stream, Tweets, Twitter OAuth, social
 Requires at least: 3.0
-Tested up to: 3.6.1
-Stable tag: 2.1
+Tested up to: 4.4.2
+Stable tag: 4.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,9 +50,9 @@ Installation is as simple as 1,2,3 or maybe 4 because of Twitter :)
 
 The Twitter Widget will never ask for your password, as it gets all your required data from the Open Authentication keys and secrets you will get by creating your application at Twitter. It also means that if you change your password, you won’t need to update any of the details of your Widget.
 
-To find these details, go to https://dev.twitter.com/ and sign in.
+To find these details, go to https://apps.twitter.com/ and sign in.
 
-Once you have logged in successfully, hover over your name in the top right corner, and click "My Applications," then "Create a New Application."
+Center of the screen click "Create a New Application."
 
 Enter a unique name (anything you want), a description (again this is just for you), and your site's URL. You can leave the Callback URL empty as it is not used for this implementation.
 
@@ -118,18 +118,60 @@ We've tested it and as far as we know it works great! Phew, but if you have an i
 
 == Screenshots ==
 
-1. Go to https://dev.twitter.com and Sign In
-2. Top right, hover your name/icon, go to My Application
-3. Create a new Application
-4. Fill a name for your App, a description (this is for you) and your website address (URL)
-5. Click "Create my access token"
-6. If you've already installed in the "Simple Twitter Tweets" plugin go to Appearance->Widgets (otherwise install it first then go here)
-7. Drag the "Simple Twitter Tweets" widget your widget area of choice
-8. Fill in the widget options and correlating Twitter Application OAuth requirements, just copy and paste
-9. New options for "Twitter Follow Button" and what elements to display
-10. Style how you like, "Your Tweets your way"
+1. Go to https://apps.twitter.com and Sign In
+2. Create a new Application
+3. Fill a name for your App, a description (this is for you) and your website address (URL)
+4. Click "Create my access token"
+5. If you've already installed in the "Simple Twitter Tweets" plugin go to Appearance->Widgets (otherwise install it first then go here)
+6. Drag the "Simple Twitter Tweets" widget your widget area of choice
+7. Fill in the widget options and correlating Twitter Application OAuth requirements, just copy and paste
+8. New options for "Twitter Follow Button" and what elements to display
+9. Style how you like, "Your Tweets your way"
 
 == Changelog ==
+= 4.4 =
+* [Fixed] Cleanup - variable definition errors
+* [Fixed] Cleanup - oAuth port definition error
+* [Fixed] i18n localisation couple missing textdomain references (props: alysko)
+
+= 4.3 =
+* [Added] Load Plugin Text Domain. Now loads the language files.
+* [Updated] Made the permalink on the list item (Cheers Brian)
+* [Updated] Fixed Typo
+
+= 4.2 =
+* [Updated] All 4.1 updates and version number updated
+
+= 4.1 =
+* [Enhanced] Widget Admin Javascript - Enhanced user experience while completing settings and options
+* [Updated] Optimised widget admin javascript and cleaned
+* [Added] Div for follow button alignment control - Props Brian Henry
+* [Added] Permalink screen name, prevent issues with spaces - thx to Brian
+* [Added] Link widget title to Twitter account.Widget admin option added for control - thx to Brian
+* [Added] Span to mimic line break and emphasis using CSS, cleaner - thx again Brian
+
+= 4.0 =
+* [Added] Multiple Widget ready - you can now use multiple versions in widget ready areas as requested
+* [Added] Internationalisation (i18n) - Ready for impending WP [theme and plugin] Language packs. All interface text marked up ready for translations
+* [Fixed] Redeclared Function Error Fixed
+
+= 3.3 =
+* [Fixed] PHP deprecated functions (notice) added PHP 5 construction references
+
+= 3.2 =
+* [Added] SSL reference for avatar (profile pic) images for secure pages
+* [Added] Check for data retrieval, handles foreach warning (bullet proof old bug)
+* [Added] Defined 'ago' so when not used handles warning
+* [Added] Clean inputs no whitespace issue
+* [Updated] URL for Twitter apps creation updated (as it was moved)
+
+= 3.1 =
+* [Fixed] Serialization error fixed - changed base_64 fix for 4-byte emoji strip
+
+= 3.0 =
+* [Fixed] Class conflict error - check for use before including
+* [Fixed] Emoji error (presented as for each error) 4-byte emoji issue
+* [Fixed] Word break (letter break on certain browsers) - moved so break on links only to ensure long URLs don't break display
 
 = 2.1 =
 * [Updated] Intents was on by default before selected (but not saved) - now off on initialisation and user selection to turn on required
