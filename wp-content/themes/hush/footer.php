@@ -2,7 +2,7 @@
 			<footer class="footer" role="contentinfo">
 
 				<div class="row">
-					<div class="large-6 small-12 no-padding columns">
+					<div class="large-12 small-12 no-padding columns">
 
 						<div class="footer-logo">
 							<img src="<?php echo get_template_directory_uri(); ?>/img/small-logo.jpg" />
@@ -13,12 +13,6 @@
 
 							<div class="grey-footer-links"><a href="<?php bloginfo('url')?>/?page_id=178">Privacy Policy</a> | <a href="<?php bloginfo('url')?>/?page_id=176">Cookie Policy</a> | <a href="<?php bloginfo('url')?>/?page_id=181">Terms and Conditions</a></div>
 						</div>
-
-					</div>
-
-					<div class="large-6 small-12 no-padding columns">
-
-						<div class="site-designed">Site designed by <a href="http://www.blowmedia.co.uk" target="_blank">blowmedia</a> in Harrogate</div>
 
 					</div>
 				</div>
