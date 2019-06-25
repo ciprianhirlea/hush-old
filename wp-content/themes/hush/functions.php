@@ -79,8 +79,6 @@ function development_enqueue_assets(){
     wp_register_style('style', get_template_directory_uri() . '/style.css');
     wp_enqueue_style('style'); // Enqueue it!
 
-    wp_register_script('livereload', '//localhost:35729/livereload.js');
-    wp_enqueue_script('livereload'); // Enqueue it!
 }
 
 // Remove invalid rel attribute values in the categorylist
